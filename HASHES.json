@@ -1,0 +1,81 @@
+{
+  "created": "2026-11-20 America/Denver",
+  "note": "Two independent standard ZIPs for chat attachment if the 25.4MB single zip cannot be copied or was truncated. Not a Windows runtime verification. Original 0.1.1 zip was not modified.",
+  "original": {
+    "path": "/workspace/apollo-desktop-pet/releases/0.1.1/Apollo.DesktopPet-0.1.1-win-x64-framework-dependent.zip",
+    "bytes": 25406606,
+    "sha256": "47ea6eadbf16e61503160a2d57c7bf363c870039f5ece276e7d90ded28d26a44"
+  },
+  "part1": {
+    "path": "/workspace/apollo-desktop-pet/20261120/chat-zips/Apollo-0.1.1-part1-program.zip",
+    "name": "Apollo-0.1.1-part1-program.zip",
+    "bytes": 6168994,
+    "sha256": "d20509705b17a6776c45f96a14352867a1593d878f0a24cc945490c9efe45347",
+    "inspect": {
+      "eocd_ok": true,
+      "entries": 20,
+      "files": 16,
+      "testzip": null,
+      "methods": {
+        "0": 4,
+        "8": 16
+      },
+      "encrypted": 0,
+      "zip64": false,
+      "comment_len": 0,
+      "trailing": 0
+    },
+    "files": [
+      "win-x64-fd-011/Apollo.Core.dll",
+      "win-x64-fd-011/Apollo.Core.pdb",
+      "win-x64-fd-011/Apollo.DesktopPet.deps.json",
+      "win-x64-fd-011/Apollo.DesktopPet.dll",
+      "win-x64-fd-011/Apollo.DesktopPet.exe",
+      "win-x64-fd-011/Apollo.DesktopPet.pdb",
+      "win-x64-fd-011/Apollo.DesktopPet.runtimeconfig.json",
+      "win-x64-fd-011/Microsoft.Windows.SDK.NET.dll",
+      "win-x64-fd-011/README.md",
+      "win-x64-fd-011/WinRT.Runtime.dll",
+      "win-x64-fd-011/asset-contract.md",
+      "win-x64-fd-011/assets/tray/apollo.ico",
+      "win-x64-fd-011/assets/visual/manifest.json",
+      "win-x64-fd-011/frame-pack.md",
+      "win-x64-fd-011/windows-gui-checks.md",
+      "README.txt"
+    ]
+  },
+  "part2": {
+    "path": "/workspace/apollo-desktop-pet/20261120/chat-zips/Apollo-0.1.1-part2-assets.zip",
+    "name": "Apollo-0.1.1-part2-assets.zip",
+    "bytes": 19228350,
+    "sha256": "13415d89d59b9b7c34750a864e6a1974d09b65f077d19bd590a861e1b0b9fd5c",
+    "inspect": {
+      "eocd_ok": true,
+      "entries": 102,
+      "files": 96,
+      "testzip": null,
+      "methods": {
+        "0": 6,
+        "8": 96
+      },
+      "encrypted": 0,
+      "zip64": false,
+      "comment_len": 0,
+      "trailing": 0
+    },
+    "files_count": 96,
+    "png_count": 96
+  },
+  "under_24000000": true,
+  "combined_extract_verify": {
+    "missing": [],
+    "mismatches": [],
+    "extra_besides_readme": [],
+    "exe_sha256": "bf626cf5c188f2bf950592a462e074f043d6eb2bd8081162d9203b75d380b2cf",
+    "exe_match": true,
+    "manifest_sha256": "8c2a0ca1eded4a964bcec626136b32bd47368476fee64ca8ab0778901dcb3d74",
+    "manifest_match": true,
+    "png_count": 96
+  },
+  "sibling_readme": "/workspace/apollo-desktop-pet/20261120/chat-zips/README.txt"
+}
